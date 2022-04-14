@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Aula de Lógica - Impulso tec</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <p>Bem vindo à aula 2, ex 2 de lógica com Javascript.</p>
+       <p>observe o console do navegador</p>
+   </body>
+   <script>  
+         
+         var acumulador,numero
+         acumulador=0 
+         //1 vez
+         numero=13
+         if(numero % 2 == 0){
+         console.log("o número " + acumulador + " é PAR ")
+         }else{
+         console.log("o número "  + acumulador + " é ÍMPAR ")   
+         }
+         acumulador= acumulador+numero
+           //2 vez
+        numero=7
+        if(numero % 2 == 0){
+        console.log("o número " + acumulador + " é PAR ")
+        }else{
+        console.log("o número " + acumulador + " é ÍMPAR ")   
+        }
+        acumulador= acumulador+numero
+        // 3 vez
+        numero=5
+        if(numero % 2 == 0){
+        console.log("o número " + acumulador + " é PAR ")
+        }else{
+        console.log("o número " + acumulador + " é ÍMPAR ")   
+        }      
+        acumulador= acumulador+numero
+        
+        if(numero % 2 == 0){
+        console.log("o número " + acumulador + " é PAR ")
+        }else{
+        console.log("o número " + acumulador + " é ÍMPAR ")   
+        }  
+            
+           // ++++++++++++++++++++++++++++
+
+           var acumulador, numero
+           acumulador=0
+           x++
+           numero=55
+        if(acumulador=acumulador+numero/2? alert("é par") : alert("é ímpar!")) 
+        acumulador= acumulador+numero
+             //++++++++++++++++++++++++++++++++++++
+            
+             //var animais=["leão","cavalo","águia","golfinho","peixe-boi"] 
+            // var n=0             
+                // while(n < animais.length){
+                
+                //var msgterrestre= animais[n] + " é um animal terrestre"
+                 //var msgmarinho= animais[n] + " é um animal marinho"
+                 //animais[n] == "leão" || animais[n] == "cavalo" ? console.log(msgterrestre) : null
+                 //animais[n] == "golfinho" || animais[n] == "peixe-boi" ? console.log(msgmarinho) : null
+                  //n++
+            // }
+             
+             //++++++++++++++++++++++++++++++++++++++++++++++++++++++
+               
+             //modelo 2
+             //t=terrestre, m=marinho, a=ave
+
+             var especies=[
+                 ["leão","t"],
+                 ["cavalo","t"],
+                 ["águia","a"],
+                 ["golfinho","m"],
+                 ["peixe-boi","m"]
+             ]
+              var x=0
+              while(x < especies.length){
+                  console.log(especies[x][0])
+                  especies[x][1]== "m" ? console.log(especies[x][0] + ": animais marinhos") : null
+                  especies[x][1]== "t" ? console.log(especies[x][0] + ": animais terrestres") : null
+                  especies[x][1]== "a" ? console.log(especies[x][0] + ": animais aves") : null
+                  x++
+                  } 
+
+                //verificador otimizado
+            console.log("++++++++++++++++++++++++++++++ modelo otimizado:")
+        var indices=[3,6,5,34,98,12,25]
+        var y=0
+        var acumulaY=0 //soma y + 1
+        while(y <indices.length){//enquanto estiver somando array(indices) de 0 a 6(length)
+        indices[y] % 2 == 0 ? console.log(indices[y] + " é par") : console.log(indices[y] + " é impar")
+        acumulaY = acumulaY + indices[y]
+        y++ //some 1 na variável
+
+    }         
+      console.log("o valor acumulado é : " + acumulaY)
+      acumulaY % 2 == 0 ? console.log("acumulador é par") : console.log("acumulador é impar")
+      console.log("//++++++++++++++++++++")
+             // /var animais=["leão","cavalo","águia","golfinho","peixe-boi"] 
+            // var n=0/ console.log(animais)//exibe a estrutura do array
+             //console.log(animais.length)//5             
+             //var mensagem=(animais[0] + " e " +animais[1] + " sao animais terrestres")
+            // var animais=false
+            // var mensagem=(animais [3] + "e" + animais[4]  + "são animais marinhos")
+                                  
+            // if(animais==true){
+            // console.log( mensagem=animais[0] + "e" +animais[1] + " sao animais terrestres") //concatena         
+            // }else{
+               //  console.log(mensagem=animais[3] + " e " +animais[4] + " sao animais marinhos")
+             
+            // }
+                 
+             
+             </script>
+
+</html>

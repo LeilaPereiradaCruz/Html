@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Aula de Lógica - Impulso tec</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <p>Bem vindo à aula de lógica com Javascript.</p>
+   </body>
+   <script>
+     //javascript roda dentro de um tag <script>
+       // alert("Hello Word!")
+        var admin=false
+        if(admin){// se sim
+            //alert("Bem vindo Administrador!") 
+        }else{// se não
+           // alert("Bem vindo Visitante!") 
+         }
+         //+++++++++++++++++++++++++++++++++++
+         var almoco,relatorio,apresentacao
+         almoco=false //bolean
+         relatorio=false //bolean
+         apresentacao=false //bolean
+
+         if(almoco){
+             alert("Após o almoço preparar o relatório")
+             //almoco=false
+             }else if(relatorio){
+              // alert("Após o relatorio, preparar apresentação")
+             }else if(apresentacao){
+              // alert("Montar aprentação")
+             } else{
+                // alert("Hora do almoço")
+             }
+             //Ternário
+             var estoque=200
+             // ? representa if | representa else
+             //estoque<200? alert("Repor estoque!") : alert("Estoque ok!")
+             
+             //SWITH CASE +++++++++++++
+             //Usuário 1=Basic,2=Gold,3=Enterprise
+             var tipoDeUsuario=0
+
+             switch(tipoDeUsuario){
+                case 1: 
+                alert("Apresentar Tour do sistema")
+                break
+                case 2 :
+                 alert("Apresentar Dashboard")
+                 break
+                 case 3 : 
+                 alert("Apresentar parceiros comerciais")
+                 break 
+                 default :
+                 alert("Apresentar Página de Produtos")   
+             }
+             
+             </script>
+
+</html>

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Aula de Lógica - Impulso tec</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <p>Bem vindo à aula 3 de lógica com Javascript.</p>
+       <p>observe o console do navegador</p>
+   </body>
+   <script>  
+   var escola=[
+       [
+   [["Fábio1ºa",4], ["Jorge1ºa",3], ["Rubia1ºa",4],["Julia1ºa",3], ["Gerson1ºa",5],["Gustavo1ºa",2]],
+   [["Samantha1ºb",5], ["Gabriela1ºb",5], ["Luara1ºb",4], ["Kézia1ºb",5], ["Peter1ºb",3]],
+   [["Aurora1ºc",5], ["Ruthy1ºc",4], ["Rytha1ºc",5], ["Jorge1ºc",3], ["Liu1ºc", 5]]],
+   [
+   
+   [["Fábia2º",4],["Jorge2º",3], ["Julio2º",3], ["Jason2º",5],["Gustavo2º",2]],
+   [["Samantha2º",5], ["Gabriely2º",5], ["Luana2º",4], ["Kézia2º",5], ["Peter2º",3]],
+   [["Aurora2º",5], ["Ruthy2º",4], ["Rytha2º",5], ["Jorge2º",4], ["Liu2º", 5]]],
+   [
+   [["Fábiana3º",4],["Jorgina3º",5], ["Julio3º",3], ["Gerônimo3º",5],["Gustavo3º",2]],
+   [["Samantha3º",5], ["Gabriel3º",5], ["Luara3º",4], ["Kézia3º",5], ["Peter3º",3]],
+   [["Aurora3º",5], ["Ruthy3º",4], ["Rytha3º",5], ["Jorge3º",1], ["Liu3º", 5]]
+   ]
+   ]
+              
+           //escola[0]série, escola[0][0]turma, escola[0][0][0]aluno       
+   
+        
+   var x=0
+   var y=0
+   var qtdAprovados=0
+   var acumulaNota=0
+   //função porentagem
+   function aprovados(num,nomeAluno){
+    
+     if(num >=3){
+        console.log(nomeAluno,num)
+        qtdAprovados++
+     }
+   }
+   function porcentagem(n,total){
+       return n/total*100
+    
+   }
+   //Função media
+   function media(n,total){
+       return n/total 
+   }
+   while(y <escola[0].length){ //enquanto y estiver pesquisando escola 3 turmas
+       while(x < escola[0][y].length){//printar nome do aluno 
+      aprovados(escola[0][y][x][1],escola[0][y][x][0])
+     acumulaNota=acumulaNota + escola [0][y][x][1]
+      x++
+   }
+   //console.log(y)
+   console.log("média de notas:" + media(acumulaNota, escola[0][y].length))
+   console.log(qtdAprovados)
+   console.log(porcentagem(qtdAprovados,escola[0][y].length)+ "%")
+   y < escola[0].length ? x=0 : null
+   y < escola[0].length ? qtdAprovados=0 : null
+   y < escola[0].length ? acumulaNota=0 : null
+   y++
+}
+                 
+              </script>
+              </html>

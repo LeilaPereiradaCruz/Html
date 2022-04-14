@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Aula de Lógica - Impulso tec</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <p>Bem vindo à aula 3 de lógica com Javascript.</p>
+       <p>observe o console do navegador</p>
+   </body>
+   <script>  
+   //função simples
+
+ var diaDaSemana = "Terça-feira"
+        function saudacao (){
+            console.log("Seja bem vindo! Estou aprendendo cada vez mais, super feliz!")
+            console.log("Hoje é "+ diaDaSemana)
+        }
+        //chamada da função
+         saudacao()
+
+         //Funções com retorno
+         function soma(){
+             return 10+2
+         }
+         var res=soma()
+         console.log(res)
+
+         //Funções dom parâmetros
+         function calculo(a,b,c){
+             return a*b
+         }
+          var res2=calculo(4,5)
+          var res3=calculo(12,4)
+          console.log(res2,res3)
+
+          function bemVindo(nome,msg){
+              console.log("Olá " +  nome + ", hoje é " + msg)
+          } 
+          bemVindo("Vladimir","Dia das crianças")
+          bemVindo("Ana Maria","Carnaval")
+
+          
+          </script>
+
+</html>

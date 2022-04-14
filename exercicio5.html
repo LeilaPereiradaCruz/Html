@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Aula de Lógica - Impulso tec</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <p>Bem vindo à aula 3 de lógica com Javascript.</p>
+       <p>observe o console do navegador</p>
+   </body>
+   <script>  
+   
+          // var x=0
+            //  while(x < especies.length){
+                 // console.log(especies[x][0])
+                 // especies[x][1]== "m" ? console.log(especies[x][0] + ": animais marinhos") : null
+                 // especies[x][1]== "t" ? console.log(especies[x][0] + ": animais terrestres") : null
+                  
+                //  x++
+                //  } 
+
+                var mensagem=[["Ana", "bem vinda"],
+              ["Carla","bom dia"],
+              [ "Kátia","te amo"],
+              [ "Sue", "que bom que você veio"]
+            ]                    
+          function bemVindo(nome,msg){
+              console.log(" Hello " + nome + " Uhuul, " + msg)
+          }
+              var x=0
+              while(x < mensagem.length){
+                  bemVindo(mensagem[x][0],mensagem[x][1])
+                  x++        
+             }          
+          </script>
+</html>

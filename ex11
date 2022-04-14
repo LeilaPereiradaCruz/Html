@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>"Laboratório Dev1"</title>
+        <meta charset="utf-8">
+    </head>
+        <body>
+            <p>"Bem Vindo ao laboratório de Dev"
+                "Este local destina-se ao estudo de linguagens 
+                de programação."
+            </p>
+            
+        </body>
+        <script>
+             alert("Criando a Realidade na Era do Machine Learning")         
+            var titulolivro="Criando a Realidade na Era do Machine Learning"
+            
+            if(promocao=true){
+                
+                
+
+            }else{ 
+            alert("Promoção Encerrada")
+             }
+             </script>
+        </html>
